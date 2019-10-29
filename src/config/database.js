@@ -7,7 +7,6 @@ module.exports = {
   dialect: 'mysql',
   database: 'data_dev',
   logging: false,
-  operatorsAliases: false,
   define: {
     timestamps: true,
     underscored: true,

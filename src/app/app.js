@@ -14,6 +14,7 @@ class App {
 
   middlewares() {
     this.express.use(cors({ origin: true }))
+    this.express.use(express.json())
     this.express.use(morgan('dev'))
   }
 
