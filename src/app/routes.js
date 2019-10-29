@@ -7,5 +7,6 @@ const routes = Router()
 routes.get('', (req, res) => res.status(200).send({ message: 'Ok' }))
 
 routes.post('/cities', citiesController.create)
+routes.get('/cities', citiesController.index)
 
 module.exports = routes
